@@ -50,7 +50,25 @@
                 border-bottom: 1px solid #001DFF;
             }
         }
+
+        .loginBtn {
+            width: 100%;
+            height: 50px;
+            margin: 30px 0 0;
+            background: #001DFF;
+            color: #fff;
+            border: 1px solid #001DFF;
+            outline: none;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                background: #fff;
+                color: #001DFF;
+            }
+        }
     }
+
 
 
     .line {
@@ -59,18 +77,28 @@
         border: 1px solid #d9d9d9;
         margin: 0 0 40px;
 
+
         p {
             position: absolute;
             top: -8px;
             left: 50%;
-            width: 100px;
-            margin: 0 0 0 -50px;
+            width: 200px;
+            margin: 0 0 0 -100px;
             background: #fff;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
             color: #999;
+
+            span {
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+
+                &:hover {
+                    color: #001DFF;
+                }
+            }
         }
     }
 

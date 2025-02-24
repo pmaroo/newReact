@@ -16,10 +16,13 @@ const Home = () => {
       <div className="login">
         <input placeholder="아이디를 입력해주세요." />
         <input placeholder="비밀번호를 입력해주세요." type="password" />
+        <button className="loginBtn">로그인</button>
       </div>
 
       <div className="line">
-        <p>OR</p>
+        <p>
+          <span>회원가입</span>&nbsp;OR SNS
+        </p>
       </div>
 
       <button className="google">
